@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple history quiz website">
+  <meta name="author" content="Marcelo Guinart">
+  <meta name="keywords" content="History, quiz, test, test history">
+  <title>History quiz</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>History Quiz</h1>
+    <div class="quiz">
+      <h2 class="question" id="question">Stand-in for question text</h2>
+      <div id="answer-buttons" class="answer-buttons">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+  <button data-modal-target="#modal" id="feedback-btn">Feedback</button>
+  <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Send us your feedback.</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div id="modal-body">
+         <form>
+            <label for="feedback-label"></label>
+            <textarea id="feedback-label" placeholder="Enter your feedback here" 
+            required></textarea>
+
+            <label for="submit-feedback"></label>
+            <input type="submit" id="submit-feedback">
+      </form>
+    </div>
+    
+  </div>
+  <div id="overlay"></div>
+  <footer>
+    <p>Copyright &copy; 2022 Marcelo Guinart</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
