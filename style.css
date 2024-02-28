@@ -147,9 +147,10 @@ body>button {
   z-index:9999;
 }
 
-.feedback-btn:hover {
+body>button:hover {
   background: #d1d1d1;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #modal-body textarea {
