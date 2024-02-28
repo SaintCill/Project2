@@ -31,14 +31,14 @@
         <button data-close-button class="close-button">&times;</button>
       </div>
       <div id="modal-body">
-         <form>
-            <label for="feedback-label"></label>
-            <textarea id="feedback-label" placeholder="Enter your feedback here" 
-            required></textarea>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <label for="feedback-label">Feedback:</label>
+            <textarea id="feedback-label" name="feedback" placeholder="Enter your feedback 
+            here" required></textarea>
 
-            <label for="submit-feedback"></label>
+            <label for="submit-feedback">Submit Feedback:</label>
             <input type="submit" id="submit-feedback">
-      </form>
+        </form>
     </div>
     
   </div>
@@ -48,3 +48,4 @@
   </footer>
   <script src="script.js"></script>
 </body>
+
