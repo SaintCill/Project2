@@ -42,10 +42,10 @@ The website was tested on several browsers to check that all the features worked
 I've ran the javascript through two AIs to check if they could find any bugs. I tested the quiz on several devices and could not find anything that i would class as a bug.
 
 ## Deployment
-The site was deployed to GitHub pages. The steps to deploy are as follows:
--In the GitHub repository, navigate to the Settings tab
--From the source section drop-down menu, select the Master Branch
--Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The website was deployed using the following steps:
+- On the github repository, navigate to the settings tab
+- From the source section drop-down chose master branch
+- Once the master branch is chosen, a detailed ribbon should appear indicating that the deployment was successful
 
 ## Credits
 -[Web dev simplified](https://www.youtube.com/watch?v=MBaw_6cPmAw) on Youtube for the tutorial on custom modals
