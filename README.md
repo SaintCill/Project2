@@ -27,3 +27,28 @@ The website was tested on several browsers to check that all the features worked
 -HTML
   - No errors returned when ran through the [W3C validator](https://validator.w3.org)
 
+-CSS 
+  - No errors returned when ran through the [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+-Javascript
+  - No errors returned when ran through the [JSHint validator](https://jshint.com)
+    - The following metric where returned
+    - There are 19 functions in this file.
+    - Function with the largest signature take 3 arguments, while the median is 1.
+    - Largest function has 8 statements in it, while the median is 3.
+    - The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+
+## Existing bugs
+I've ran the javascript through two AIs to check if they could find any bugs. I tested the quiz on several devices and could not find anything that i would class as a bug.
+
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+-In the GitHub repository, navigate to the Settings tab
+-From the source section drop-down menu, select the Master Branch
+-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Credits
+-[Web dev simplified](https://www.youtube.com/watch?v=MBaw_6cPmAw) on Youtube for the tutorial on custom modals
+-[Greatstack](https://www.youtube.com/watch?v=PBcqGxrr9g8) on Youtube aswell as [Simple steps code](https://simplestepscode.com/javascript-quiz-tutorial/) for the tutorials on creating quizes in javascript
+-[Stackoverflow](https://stackoverflow.com) for general help with errors.
+-ChatGPT for general code questions that i couldn't find answers to at a level i understood.
