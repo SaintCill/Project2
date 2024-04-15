@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="quiz-container">
+
+
+<div class="quiz-container">
     <h1>History Quiz</h1>
     <div class="quiz">
       <h2 class="question" id="question">Stand-in for question text</h2>
@@ -24,6 +26,9 @@
       <button id="next-btn">Next</button>
     </div>
   </div>
+
+
+
   <button data-modal-target="#modal" id="feedback-btn">Feedback</button>
   <div class="modal" id="modal">
       <div class="modal-header">
@@ -32,20 +37,25 @@
       </div>
       <div id="modal-body">
         <form action="https://formdump.codeinstitute.net" method="POST">
-            <label for="feedback-label">Feedback:</label>
-            <textarea id="feedback-label" name="feedback" placeholder="Enter your feedback 
-            here" required></textarea>
+            <label for="feedback-label"><span class="label-text">Feedback:</span></label>
+            <textarea id="feedback-label" name="feedback" placeholder="Enter your feedback here" required></textarea>
 
             <label for="submit-feedback">Submit Feedback:</label>
             <input type="submit" id="submit-feedback" value="Send">
         </form>
     </div>
-    
   </div>
   <div id="overlay"></div>
-  <footer>
-    <p>Copyright &copy; 2022 Marcelo Guinart</p>
-  </footer>
+  
+  
+
+  <section id="footer">
+    <footer>
+        <p>Copyright &copy; 2022 Marcelo Guinart</p>
+    </footer>
+  </section>
+  
+  
+
   <script src="script.js"></script>
 </body>
-
